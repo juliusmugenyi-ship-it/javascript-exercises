@@ -10,7 +10,7 @@
 // deliberately and naming everything in camelCase. Log each variable, and add a one-line
 // comment justifying every choice between `const` and `let`.
 
-const shopName = "Julius Coffee Corner";
+const shopName = "Maison Sarah";
 // const is used because the shop name will not change after it is assigned.
 
 let numberOfCustomers = 50;
