@@ -25,9 +25,6 @@ console.log(
 // * The provided messy string:
 const messy = "   Maison   Sarah, fresh bread daily   ";
 
-// * The provided messy string:
-const messy = "   Maison   Sarah, fresh bread daily   ";
-
 // Methods used:
 // - trim(): removes extra spaces from the beginning and end.
 // - replace(): changes "Sarah" to the correct word/name.
@@ -41,10 +38,6 @@ console.log(cleaned);
 // Using the provided product string, log its length, the position at which a given word
 // begins, and a slice containing exactly that word. Then split the provided comma-separated
 // list and log the resulting pieces.
-
-// * The provided product string and comma-separated list:
-const product = "Sourdough Loaf, whole grain";
-const flavorList = "rye,spelt,wheat,olive";
 
 // * The provided product string and comma-separated list:
 const product = "Sourdough Loaf, whole grain";
@@ -98,12 +91,32 @@ console.log(randomTenToTwenty);
 // correctly on a string of your choice. In a comment, cite the method's name and describe what
 // it does in one sentence of your own words.
 
+const shopMessage = "Fresh bread available today";
+
+// Method used: includes()
+// includes() checks whether a string contains a specific piece of text and returns true or false.
+console.log(shopMessage.includes("bread"));
+
 // TODO: Part seven.
 // Two classic exercises close the lesson. First, build a username generator: from a first name
 // and a last name held in variables, produce a lowercase username in the pattern of first
 // initial followed by full last name, such as mmustermann. Second, write a mad-libs story:
 // declare four variables, an adjective, a noun, a verb, and a place, and log one short,
 // ridiculous story built from a single template literal that uses all four.
+
+// Username generator
+const firstName = "Max";
+const lastName = "Mustermann";
+
+const username = `${firstName[0]}${lastName}`.toLowerCase();
+
+console.log(username);
+
+// Mad-libs story
+const adjective = "sparkly";
+const noun = "penguin";
+const verb = "danced";
+const place = "the supermarket";
 
 // TODO: Save deliberately, commit with a clear message, push the branch, and open a pull request
 // into main.
