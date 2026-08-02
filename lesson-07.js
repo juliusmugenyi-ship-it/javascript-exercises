@@ -12,7 +12,7 @@
 // were required in that case.
 
 const menuItem = {
-  name: "Cakes",
+  name: "Croissants",
   price: 12.5,
   category: "Main Course",
   available: true,
@@ -31,8 +31,8 @@ console.log(menuItem[propertyKey]);
 // Give the item a `describe` method that returns one sentence built from the object's own
 // properties through `this`, and log the result of calling it.
 
-const menuItem = {
-  name: "Cakes",
+const detailedmenuItem = {
+  name: "Bagel",
   price: 12.5,
   category: "Main Course",
   available: true,
@@ -42,7 +42,7 @@ const menuItem = {
   },
 };
 
-console.log(menuItem.describe());
+console.log(detailedmenuItem.describe());
 
 // TODO: Part three.
 // Build an array of at least five menu item objects, and walk it with `for...of`, logging one
